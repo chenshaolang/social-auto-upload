@@ -188,3 +188,7 @@ cookiesFile
 uploadFile
 videoFile
 
+# uv
+.venv/
+__pycache__/
+*.env

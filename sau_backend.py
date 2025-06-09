@@ -480,4 +480,15 @@ def sse_stream(status_queue):
             time.sleep(0.1)
 
 if __name__ == '__main__':
+    # 判断当前目录下是否有 cookiesFile、uploadFile、videoFile 这三个临时文件夹
+    if not Path(BASE_DIR / "cookiesFile").exists():
+        Path(BASE_DIR / "cookiesFile").mkdir(parents=True, exist_ok=True)
+        print("创建 cookiesFile 文件夹")
+    if not Path(BASE_DIR / "uploadFile").exists():
+        Path(BASE_DIR / "uploadFile").mkdir(parents=True, exist_ok=True)
+        print("创建 uploadFile 文件夹")
+    if not Path(BASE_DIR / "videoFile").exists():
+        Path(BASE_DIR / "videoFile").mkdir(parents=True, exist_ok=True)
+        print("创建 videoFile 文件夹")
+
     app.run(host='0.0.0.0' ,port=5409)
