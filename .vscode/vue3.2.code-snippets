@@ -3,7 +3,7 @@
     "scope": "vue",
     "prefix": "Vue3.2+",
     "body": [
-      "<script setup lang='ts'>",
+      "<script setup>",
       "</script>\n",
       "<template>",
       "\t<div>test</div>",

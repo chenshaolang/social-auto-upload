@@ -3,7 +3,7 @@
     "scope": "vue",
     "prefix": "Vue3.3+",
     "body": [
-      "<script setup lang='ts'>",
+      "<script setup>",
       "defineOptions({",
       "\tname: ''",
       "})",

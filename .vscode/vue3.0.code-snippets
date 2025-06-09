@@ -6,7 +6,7 @@
       "<template>",
       "\t<div>test</div>",
       "</template>\n",
-      "<script lang='ts'>",
+      "<script>",
       "export default {",
       "\tsetup() {",
       "\t\treturn {}",
